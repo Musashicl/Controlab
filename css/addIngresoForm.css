@@ -1,0 +1,65 @@
+/* 
+    Document   : addIngresoForm
+    Created on : 09-07-2012, 12:19:10 PM
+    Author     : 579718
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Add Ingreso Form */
+
+	#formAddIngreso{
+		margin:1em 0;
+		color:#fff;
+		width:320px; /* customize width, this form have fluid layout */
+		}
+	#formAddIngreso h3{
+		margin:0;
+		background:#57a700 url(../images/form2/form_heading.gif) repeat-x;		
+		color:#fff;
+		font-size:20px;
+		border:1px solid #57a700;
+		border-bottom:none;
+		}		
+	#formAddIngreso h3 span{
+		display:block;
+		padding:10px 20px;
+		background:url(../images/form2/form_ico.gif) no-repeat 93% 50%;			
+		}				
+	#formAddIngreso fieldset{
+		margin:0;
+		padding:0;
+		border:none;	
+		border-top:3px solid #000;
+		background:#000 url(../images/form2/form_top.gif) repeat-x;		
+		padding-bottom:1em;
+		}		
+	#formAddIngreso legend{display:none;}	
+	#formAddIngreso p{margin:.5em 20px;}	
+	#formAddIngreso label{display:block;}	
+	#formAddIngreso input, #form2 textarea{		
+		width:272px;
+		border:1px solid #111;
+		background:#282828 url(../images/form2/form_input.gif) repeat-x;
+		padding:5px 3px;
+		color:#fff;
+		}		
+	#formAddIngreso textarea{
+		height:125px;
+		overflow:auto;
+		}					
+	#formAddIngreso p.submit{
+		text-align:right;
+		}	
+	#formAddIngreso button{
+		padding:0 20px;
+		height:32px;
+		line-height:32px;		
+		border:1px solid #70ad2e;
+		background:#5aae00 url(../images/form2/form_button.gif) repeat-x;
+		color:#fff;
+		cursor:pointer;		
+		text-align:center;		
+		}				
+
+/* // Add Ingreso Form*/
